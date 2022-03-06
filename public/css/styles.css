@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-ene-2014, 13:01:47
+    Author     : Jonas
+*/
+
+@media all and (min-width:800px){     
+    #todo {
+        width:978px;
+        margin:0 auto;
+        background-color: white;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px #D66B00;
+        font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        //background-color: #ED6F02;
+        background: -webkit-linear-gradient(#ED6F02,#F4B164); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#ED6F02,#F4B164); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#ED6F02,#F4B164); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#ED6F02,#F4B164); /* Standard syntax */
+        background-size:100% 100%;
+        
+    }             
+    #separador{
+        display:none;
+    }
+    header{
+        clear:both;
+        margin-bottom:0%;
+        padding-bottom:1%;
+    }
+}  
+//Samsung Galaxy S I and II 	480 x 800 
+@media all and (max-width:799px){ 
+    #todo {
+        display:none;
+    }
+    #todomovil {
+
+        width:480px;
+        margin:0 auto;
+        background-color: white;
+        -webkit-top-left-radius: 90px;
+        -webkit-top-right-radius: 20px;
+        -moz-top-right-radius: 20px;
+        -moz-top-left-radius:90px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background-color: #ED6F02;
+        margin:0
+    }
+    div.fb-like-box{
+        display:none;
+    }
+    #social{
+        display:none;
+    }
+
+} 
+
+th{
+    background:#84B509;
+}
+tr{
+    border:1pt solid black;
+}
+td{
+    border:1pt solid blue;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+#izq{
+    width:70%;
+    float:left;
+    position:relative;
+    background-color: white;
+    padding:15px;
+    overflow:hidden;
+    margin-right:10px; 
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #D66B00;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+#derecha{
+    width:22%;
+    float:right;
+    position:relative;
+    background-color: white;
+    padding:15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #D66B00;
+    margin-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+@media all and (max-width:800px){ 
+    #izq{
+        width:100%;
+        float:left;
+        position:relative;
+        background-color: white;
+        padding:0;
+        overflow:hidden;
+        margin-right:10px; 
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+
+    }
+    div.fb-like-box{
+        display:none;
+    }
+    #social{
+        display:none;
+    }
+}
+#nombre{
+   width:80%; 
+}
+#plog{
+    width:80%; 
+}
+#seccionactual{
+display:inline;
+background:orange;
+padding:1% 1% ;            
+}
+#pages{
+    width:80%;
+}
+#imgHolder {
+  width:100px; 
+  height:100px;        
+}
+#trverpaginas { 
+background:#298C1A;
+table-layout:fixed;
+overflow:hidden;
+}
+#divface{
+border-width: 2px; 
+border-style: solid;
+border-color: orange;
+padding:1%;
+}
+#divgoogle{
+ border-width: 2px; 
+border-style: solid;
+border-color: orange;
+padding:1%;
+}
+#dividea{
+border-width: 2px; 
+border-style: solid;
+border-color: orange;
+padding:1%;    
+}
+#googlec{ 
+width:10%; 
+background: #FF1111;
+}
+#facec {
+width:10%;     
+background: #878BFF;
+}
+#ideac{ 
+width:10%; 
+background: #DB6708;
+}
+#warning{
+color:red;
+}
+#dividea #nombre{
+width:40%;
+margin-left: 3%;  
+}
+#dividea #mail{
+width:40%;    
+margin-left:4.7%;
+}
+#dividea #comentario{
+width:80%;    
+margin-left:2%;   
+}
+#direcciones{
+float:right;
+clear:both;
+width:50%;
+height:840px;
+margin:1%;
+background:white;
+}
+@media all and (max-width:799px){ 
+    #derecha{
+        width:100%;
+        float:left;
+        position:relative;
+        clear:both;
+        background-color: white;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
+    #plog{
+        margin-left: 0%;
+    }
+    nav{
+        background-color: white;
+        padding:1% 0 1% 0;
+    }
+    #social{
+        display:none;
+    }
+}
+
+nav ul{
+    list-style-type:none;  
+    margin:0% 0% 0% 0%;
+
+}
+li{
+    display:block;
+    margin:0% 0% 0% 0%;
+    text-align:left;
+
+}
+li a{
+    padding:1%;
+    text-decoration:none;
+
+}
+li a:hover{
+
+    background-color:#F77409;
+    color:white;
+    text-decoration:none;
+}
+br{
+    margin-bottom:18px;
+}
+#noticia{
+    margin:2%;
+}
+#logo
+{
+    width:100%;
+    height:110px;
+    background-image:url('../img/logo.png');
+    background-repeat:no-repeat;
+    position:relative;
+    -moz-animation:logo 3s infinite;
+    animation:logo 3s infinite;
+    -webkit-animation:logo 3s infinite; 
+    -webkit-top-left-radius: 20px;
+    -webkit-top-right-radius: 20px;
+    -moz-top-right-radius: 20px;
+    -moz-top-left-radius:20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+@keyframes logo
+{
+    0%   { background-image:url('../img/logo3.png');}
+    33%  { background-image:url('../img/logo3.png');}
+    66%  { background-image:url('../img/logo2.png');}
+    100%  { background-image:url('../img/logo.png');}
+
+} 
+@-moz-keyframes logo
+{
+    0%   { background-image:url('../img/logo3.png');}
+    33%  { background-image:url('../img/logo3.png');}
+    66%  { background-image:url('../img/logo2.png');}
+    100%  { background-image:url('../img/logo.png');}
+}
+@-webkit-keyframes logo /* Safari and Chrome */
+{
+    0%   { background-image:url('../img/logo3.png');}
+    33%  { background-image:url('../img/logo3.png');}
+    66%  { background-image:url('../img/logo2.png');}
+    100%  { background-image:url('../img/logo.png');}
+
+}
