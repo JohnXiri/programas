@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-ene-2014, 13:01:47
+    Author     : Jonas
+*/
+
+body{
+    background-color: #ED6F02;
+
+}
+
+#izq{
+    width:72%;
+    background-color: white;
+    padding:15px;
+    overflow:hidden;
+    margin-right:10px; 
+
+}
+#derecha{
+    width:20%;
+    float:right;
+    position:relative;
+    clear:both;
+    background-color: white;
+    padding:15px;
+}
+
+th{
+    background:#84B509;
+}
+tr{
+    border:1pt solid black;
+}
+td{
+    border:1pt solid blue;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+br{
+    margin-bottom: 20px;
+}
+
+#plog{
+    margin-left: 10%;
+}
+nav ul{
+  background-color: white;  
+}
+
+nav ul{
+    list-style-type:none;  
+    margin:0% 0% 0% 0%;   
+}
+li{
+    display:block;
+    margin:0% 0% 0% 0%;
+    text-align:left;    
+}
+li a{
+    padding:1%;
+    text-decoration:none;
+
+}
+li a:hover{
+
+    background-color:#F77409;
+    color:white;
+    text-decoration:none;
+}
+
+#logo{
+    width:100%;
+    height:110px;
+    background-image:url('../img/logo.png');
+    background-repeat:no-repeat;
+    position:relative;
+    -moz-animation:logo 3s infinite;
+    animation:logo 3s infinite;
+    -webkit-animation:logo 3s infinite; 
+
+}
+
+@keyframes logo
+{
+    0%   { background-image:url('../img/logo3.png');}
+    33%  { background-image:url('../img/logo3.png');}
+    66%  { background-image:url('../img/logo2.png');}
+    100%  { background-image:url('../img/logo.png');}
+
+} 
+@-moz-keyframes logo
+{
+    0%   { background-image:url('../img/logo3.png');}
+    33%  { background-image:url('../img/logo3.png');}
+    66%  { background-image:url('../img/logo2.png');}
+    100%  { background-image:url('../img/logo.png');}
+}
+@-webkit-keyframes logo /* Safari and Chrome */
+{
+    0%   { background-image:url('../img/logo3.png');}
+    33%  { background-image:url('../img/logo3.png');}
+    66%  { background-image:url('../img/logo2.png');}
+    100%  { background-image:url('../img/logo.png');}
+
+}
+//Samsung Galaxy S I and II 	480 x 800 
+
+@media all and (min-width:800px){  
+
+    #todomovil {
+        display: none;      
+    }
+    #todo {
+        width:978px;
+        margin:0 auto;
+    }
+    body{
+        background-color: #ED6F02;
+    }
+    #derecha{
+        width:20%;
+        float:right;
+        position:relative;
+        background-color: white;
+        margin-left:0; 
+        margin-top:0; 
+    }
+    #izq{
+        width:79%;
+        float:left;
+        position:relative;
+        background-color: white;
+        overflow:hidden;
+        margin-left:0; 
+
+    }    
+    nav ul{
+        list-style-type:none;  
+        margin:0% 0% 0% -5%;
+    }
+    li{
+        display:block;
+        margin:0% 0% 0% 0%;
+        text-align:left;
+    }
+    li a{
+        padding:1%;
+        text-decoration:none;
+
+    }
+    li a:hover{
+
+        background-color:#F77409;
+        color:white;
+        text-decoration:none;
+    }
+}  
+//final @media all and (min-width:800px)
+@media all and (max-width:799px){ 
+    #todo {
+        display: none;
+    }
+    #todomovil {
+        width:480px;
+        margin:0 auto;
+        background-color: white;
+        display: block;      
+    }
+
+    body{
+        background-color: #ffffff;
+        margin:0;
+    }
+    #derecha{
+        width:100%;
+        float:left;
+        position:relative;
+        background-color: white;
+        margin-left:0; 
+        margin-top:0; 
+    }
+    #izq{
+        width:100%;
+        float:left;
+        position:relative;
+        background-color: white;
+        overflow:hidden;
+        margin-left:0; 
+
+    }    
+    div.fb-like-box{
+        display:none;
+    }
+    #plog{
+        margin-left: 0%;
+    }
+    nav{
+        background-color: white;
+        padding:1% 0 1% 0;
+    }
+    nav ul{
+        list-style-type:none;  
+        margin:0% 0% 0% -3%;
+    }
+    li{
+        display:block;
+        margin:0% 0% 0% 0%;
+        text-align:left;
+    }
+    li a{
+        padding:1%;
+        text-decoration:none;
+
+    }
+    li a:hover{
+
+        background-color:#F77409;
+        color:white;
+        text-decoration:none;
+    }
+}
+//final @media all and (max-width:799px)
